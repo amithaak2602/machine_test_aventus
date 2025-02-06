@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "675138935972",
+    "firebase_url": "https://aventusmachinetest-default-rtdb.firebaseio.com",
+    "project_id": "aventusmachinetest",
+    "storage_bucket": "aventusmachinetest.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675138935972:android:0a9d5ca26ca2813f00da31",
+        "android_client_info": {
+          "package_name": "com.example.aventus_machine_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675138935972-06ub437k172m7reutjqdoulvpegcusab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aventus_machine_test",
+            "certificate_hash": "a90020c5c7826b2ae11197e3f06551caf472e02b"
+          }
+        },
+        {
+          "client_id": "675138935972-tncmqelmb4r8520acmmva54iopv1lq2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlfa_avRe8sFWcWH9ejoIa4TEIvrHMSC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675138935972-tncmqelmb4r8520acmmva54iopv1lq2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
