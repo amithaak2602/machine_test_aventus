@@ -1,15 +1,15 @@
-import 'package:aventus_machine_test/screen/bloc/wish_list_cubit/wish_list_cubit.dart';
+import 'package:aventus_machine_test/bloc/wish_list_cubit/wish_list_cubit.dart';
 import 'package:aventus_machine_test/screen/common/colors.dart';
-import 'package:aventus_machine_test/screen/model/whishlist_model.dart';
+import 'package:aventus_machine_test/model/whishlist_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
-import '../service/injection/injection.dart';
+import '../../service/injection/injection.dart';
 import '../widget/custom_product_card.dart';
 
 class WishListScreen extends StatefulWidget {
-  const WishListScreen({Key? key}) : super(key: key);
+  const WishListScreen({super.key});
 
   @override
   State<WishListScreen> createState() => _WishListScreenState();
@@ -21,9 +21,6 @@ class _WishListScreenState extends State<WishListScreen> {
     return BlocBuilder<WishListCubit, WishListModel>(
       bloc: locator<WishListCubit>(),
       builder: (context, state) {
-        print(
-          state.wishList?.length,
-        );
         return Scaffold(
           backgroundColor: StaticColors.staticWhite,
           appBar: AppBar(

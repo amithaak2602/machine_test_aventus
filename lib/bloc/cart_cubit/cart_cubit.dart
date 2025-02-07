@@ -1,9 +1,8 @@
-import 'package:aventus_machine_test/screen/model/cart_model.dart';
-import 'package:aventus_machine_test/screen/repository/cart_repository.dart';
-import 'package:aventus_machine_test/screen/service/injection/injection.dart';
+import 'package:aventus_machine_test/model/cart_model.dart';
+import 'package:aventus_machine_test/repository/cart_repository.dart';
+import 'package:aventus_machine_test/service/injection/injection.dart';
 import 'package:bloc/bloc.dart';
 import 'package:injectable/injectable.dart';
-import 'package:meta/meta.dart';
 
 @singleton
 class CartCubit extends Cubit<CartModel> {

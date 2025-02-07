@@ -1,9 +1,9 @@
-import 'package:aventus_machine_test/screen/bloc/wish_list_cubit/wish_list_cubit.dart';
-import 'package:aventus_machine_test/screen/model/whishlist_model.dart';
+import 'package:aventus_machine_test/bloc/wish_list_cubit/wish_list_cubit.dart';
+import 'package:aventus_machine_test/model/whishlist_model.dart';
+import 'package:aventus_machine_test/service/injection/injection.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:injectable/injectable.dart';
 
-import '../service/injection/injection.dart';
 
 @singleton
 class WishListRepository {

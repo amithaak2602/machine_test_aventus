@@ -1,6 +1,6 @@
-import 'package:aventus_machine_test/screen/bloc/user_cubit/user_cubit.dart';
-import 'package:aventus_machine_test/screen/model/user_model.dart';
-import 'package:aventus_machine_test/screen/service/injection/injection.dart';
+import 'package:aventus_machine_test/bloc/user_cubit/user_cubit.dart';
+import 'package:aventus_machine_test/model/user_model.dart';
+import 'package:aventus_machine_test/service/injection/injection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';

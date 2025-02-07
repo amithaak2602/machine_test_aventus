@@ -1,4 +1,4 @@
-import 'package:aventus_machine_test/screen/service/injection/injection.config.dart';
+import 'package:aventus_machine_test/service/injection/injection.config.dart';
 import 'package:get_it/get_it.dart';
 import 'package:injectable/injectable.dart';
 

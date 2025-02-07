@@ -1,4 +1,4 @@
-import 'package:aventus_machine_test/screen/model/whishlist_model.dart';
+import 'package:aventus_machine_test/model/whishlist_model.dart';
 import 'package:bloc/bloc.dart';
 import 'package:injectable/injectable.dart';
 

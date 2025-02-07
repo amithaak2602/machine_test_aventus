@@ -1,10 +1,10 @@
-import 'package:aventus_machine_test/screen/bloc/user_cubit/user_cubit.dart';
+import 'package:aventus_machine_test/bloc/user_cubit/user_cubit.dart';
 import 'package:aventus_machine_test/screen/common/colors.dart';
 import 'package:aventus_machine_test/screen/common/common.dart';
 import 'package:aventus_machine_test/screen/home_screen/dash_board.dart';
-import 'package:aventus_machine_test/screen/model/user_model.dart';
-import 'package:aventus_machine_test/screen/repository/login_repository.dart';
-import 'package:aventus_machine_test/screen/service/injection/injection.dart';
+import 'package:aventus_machine_test/model/user_model.dart';
+import 'package:aventus_machine_test/repository/login_repository.dart';
+import 'package:aventus_machine_test/service/injection/injection.dart';
 import 'package:aventus_machine_test/screen/widget/custom_text_field.dart';
 import 'package:aventus_machine_test/screen/widget/save_button.dart';
 import 'package:firebase_auth/firebase_auth.dart';

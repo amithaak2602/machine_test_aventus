@@ -1,6 +1,6 @@
-import 'package:aventus_machine_test/screen/bloc/cart_cubit/cart_cubit.dart';
-import 'package:aventus_machine_test/screen/model/cart_model.dart';
-import 'package:aventus_machine_test/screen/service/injection/injection.dart';
+import 'package:aventus_machine_test/bloc/cart_cubit/cart_cubit.dart';
+import 'package:aventus_machine_test/model/cart_model.dart';
+import 'package:aventus_machine_test/service/injection/injection.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:injectable/injectable.dart';
 
@@ -9,7 +9,6 @@ class CartRepository {
   static CollectionReference cartCollection =
       getFireStoreInstance()!.collection('cart');
   Future<DocumentReference> addToCart(CartModel cart) {
-    print(cart.toJson());
     return cartCollection.add(cart.toJson());
   }
 
