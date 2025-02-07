@@ -1,5 +1,5 @@
 import 'package:aventus_machine_test/screen/cart_screen/cart_screen.dart';
-import 'package:aventus_machine_test/screen/common/colors.dart';
+import 'package:aventus_machine_test/common/colors.dart';
 import 'package:aventus_machine_test/screen/home_screen/home_screen.dart';
 import 'package:aventus_machine_test/screen/home_screen/profile_screen/profile_screen.dart';
 import 'package:aventus_machine_test/screen/home_screen/widget/bottom_navigation_bar.dart';

@@ -1,5 +1,3 @@
-import 'package:aventus_machine_test/screen/home_screen/dash_board.dart';
-import 'package:aventus_machine_test/screen/home_screen/home_screen.dart';
 import 'package:aventus_machine_test/screen/login_screen/login_screen.dart';
 import 'package:aventus_machine_test/service/injection/injection.dart';
 import 'package:firebase_core/firebase_core.dart';

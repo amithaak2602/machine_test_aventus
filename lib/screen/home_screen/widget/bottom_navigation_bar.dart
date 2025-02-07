@@ -1,4 +1,4 @@
-import 'package:aventus_machine_test/screen/common/colors.dart';
+import 'package:aventus_machine_test/common/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';

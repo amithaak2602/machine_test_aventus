@@ -1,6 +1,6 @@
 import 'package:aventus_machine_test/bloc/product_cubit/product_cubit.dart';
 import 'package:aventus_machine_test/bloc/wish_list_cubit/wish_list_cubit.dart';
-import 'package:aventus_machine_test/screen/common/colors.dart';
+import 'package:aventus_machine_test/common/colors.dart';
 import 'package:aventus_machine_test/model/product_model.dart';
 import 'package:aventus_machine_test/screen/product_details_screen/product_detail_screen.dart';
 import 'package:aventus_machine_test/repository/cart_repository.dart';

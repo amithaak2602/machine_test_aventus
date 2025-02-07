@@ -1,8 +1,6 @@
-
+import 'package:aventus_machine_test/common/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-
-import '../common/colors.dart';
 import 'custom_text_field.dart';
 
 class CustomSearchbar extends StatelessWidget {

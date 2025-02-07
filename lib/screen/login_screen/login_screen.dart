@@ -1,6 +1,6 @@
 import 'package:aventus_machine_test/bloc/user_cubit/user_cubit.dart';
-import 'package:aventus_machine_test/screen/common/colors.dart';
-import 'package:aventus_machine_test/screen/common/common.dart';
+import 'package:aventus_machine_test/common/colors.dart';
+import 'package:aventus_machine_test/common/common.dart';
 import 'package:aventus_machine_test/screen/home_screen/dash_board.dart';
 import 'package:aventus_machine_test/model/user_model.dart';
 import 'package:aventus_machine_test/repository/login_repository.dart';

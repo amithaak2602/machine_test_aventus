@@ -1,7 +1,8 @@
 import 'package:aventus_machine_test/bloc/cart_cubit/cart_cubit.dart';
 import 'package:aventus_machine_test/bloc/product_cubit/product_cubit.dart';
 import 'package:aventus_machine_test/bloc/wish_list_cubit/wish_list_cubit.dart';
-import 'package:aventus_machine_test/screen/common/common.dart';
+import 'package:aventus_machine_test/common/colors.dart';
+import 'package:aventus_machine_test/common/common.dart';
 import 'package:aventus_machine_test/model/cart_model.dart';
 import 'package:aventus_machine_test/model/product_model.dart';
 import 'package:aventus_machine_test/model/whishlist_model.dart';
@@ -14,7 +15,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
-import '../common/colors.dart';
 
 class ProductDetailScreen extends StatefulWidget {
   final bool isFromCart;
